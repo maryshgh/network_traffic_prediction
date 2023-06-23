@@ -8,6 +8,10 @@ import helpers
 from helpers.data_processing import build_sequence_data
 from helpers.models import convLSTM_model
 
+# Set the random seed for reproducible results
+np.random.seed(123)
+tf.random.set_seed(123)
+
 # Import training, validation, and test data
 train_file = 'MilanoTrain40.csv'
 test_file = 'MilanoTest5060.csv'
