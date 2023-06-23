@@ -3,3 +3,5 @@ In this project we propose a conolutional LSTM based model to predict the future
 
 Validation and test datasets are provided in separate files. The training file can be find viw the follwoing link:
 [Training Data](https://drive.google.com/file/d/1YEOXfZgFGn3AhPFxiC2PfjXW0qMNtjaq/view?usp=share_link)
+
+Each file containg 3 rows of data, including cell ID, time stamp and the network connection requests.
