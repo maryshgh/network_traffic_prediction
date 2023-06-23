@@ -25,6 +25,7 @@ dataset_train = pd.read_csv(train_path, header=None).values
 dataset_test = pd.read_csv(test_path, header=None).values
 dataset_val = pd.read_csv(val_path, header=None).values
 
+# Parameter initialization
 r = 10 # size of spatial data
 recurrent_length = 12 # number of 10 minutes intervals
 rec_out=3 # number of predicted time slots in future
